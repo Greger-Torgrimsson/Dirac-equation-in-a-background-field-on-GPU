@@ -1,0 +1,1 @@
+This notebook solves the Dirac equation in an electric field which depend on t, x and y, and computes the probability of Schwinger pair production. It can run on a CPU, but it is much faster to run it on a GPU, which one can do via Colab.
