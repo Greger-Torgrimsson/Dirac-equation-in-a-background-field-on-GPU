@@ -1,4 +1,4 @@
-This notebook solves the Dirac equation in an electric field, E(t,x), E(t,x,y) or E(t,x,y,z), and computes the probability of Schwinger pair production, using the method is described in:
+This notebook solves the Dirac equation in an electric field, E(t,x), E(t,x,y) or E(t,x,y,z), and computes the probability of Schwinger pair production, using the method described in:
 
 G. Torgrimsson,
 ``Momentum correlation in pair production by spacetime dependent fields from scattered wave functions''
