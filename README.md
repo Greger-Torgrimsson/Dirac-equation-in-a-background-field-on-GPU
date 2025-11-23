@@ -1,3 +1,6 @@
+jaxSchwingerGH.ipynb is an updated code which is much faster.  
+
+
 This notebook solves the Dirac equation in an electric field, E(t,x), E(t,x,y) or E(t,x,y,z), and computes the probability of Schwinger pair production, using the method described in:
 
 G. Torgrimsson,
