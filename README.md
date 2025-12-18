@@ -1,3 +1,10 @@
+jaxBWplaneWaveGH.ipynb contains a code for computing the probability of nonlinear Breit-Wheeler pair production in (1+1)D. "planeWave" in the name refers to the high-energy photon, not the background field. The method and code are described in
+
+G. Torgrimsson,
+``Solving the Dirac equation on a GPU for strong-field processes in multidimensional background fields''
+to appear
+
+
 jaxSchwingerGH.ipynb is an updated code which is much faster.  
 
 
