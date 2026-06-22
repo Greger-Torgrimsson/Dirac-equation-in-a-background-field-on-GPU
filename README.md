@@ -1,24 +1,48 @@
-jaxGR.ipynb: computes probability of pair production in curved spacetimes with metrics of the "inflation" or Gullstrand-Painleve form. Allows for metrics with nontrivial holonomy.
+# Scattered-wave-function (SWF) approach for strong-field QFT in curved spacetimes and electromagnetic fields
 
-jaxGRandQED: computes probability of pair production in general curved spacetimes and/or electromagnetic background fields, assuming a trivial holonomy.
+JAX implementations of scattered-wave-function methods for strong-field-QFT processes in curved spacetimes and electromagnetic background fields.
 
-
-
-
-jaxBWplaneWaveGH.ipynb contains a code for computing the probability of nonlinear Breit-Wheeler pair production in (1+1)D. "planeWave" in the name refers to the high-energy photon, not the background field. The method and code are described in
-
-G. Torgrimsson,
-``Solving the Dirac equation on a GPU for strong-field processes in multidimensional background fields''
-to appear
+**Author:** Greger Torgrimsson
 
 
-jaxSchwingerGH.ipynb is an updated code which is much faster.  
+## Contents
+
+### jaxGRandQED.ipynb
+
+Computes the probability of pair production in general curved spacetimes and/or electromagnetic background fields, assuming trivial holonomy.
+Used in [3].
+
+### jaxGR.ipynb 
+
+Computes the probability of pair production in curved spacetimes with metrics of the inflation or Gullstrand-Painlevé form.
+Allows for metrics with nontrivial holonomy.
+Used in [3].
+
+### jaxBWplaneWaveGH.ipynb 
+
+Computes the probability of nonlinear Breit-Wheeler pair production in 1+1 dimensions.
+"planeWave" refers to the high-energy photon, not the background field.
+Used in [2].
+
+### jaxSchwingerGH.ipynb 
+
+Computes probability of Schwinger pair production. (This is an updated code that is much faster than DiracGPU.ipynb.)
+Used in [2].
 
 
-This notebook solves the Dirac equation in an electric field, E(t,x), E(t,x,y) or E(t,x,y,z), and computes the probability of Schwinger pair production, using the method described in:
+## References
 
-G. Torgrimsson,
-``Momentum correlation in pair production by spacetime dependent fields from scattered wave functions''
-arXiv:2509.17770
+The underlying SWF methods were developed in:
 
-The code has been tested on Colab with 3 different runtime types: CPU for 1+1, T4 GPU for 2+1, and A100 GPU for 3+1.
+1. Greger Torgrimsson,\
+**Momentum correlation in pair production by spacetime-dependent fields from scattered wave functions**\
+Phys. Rev. D **112**, 116011 (2025)
+
+
+2. Greger Torgrimsson,\
+**Solving the Dirac equation on a GPU for strong-field processes in multidimensional background fields**\
+arXiv:2512.16889 [hep-ph]
+
+3. P. Semren and G. Torgrimsson,\
+**Scattered wave functions and worldline instantons for particle production in curved spacetime**\
+(to appear)
