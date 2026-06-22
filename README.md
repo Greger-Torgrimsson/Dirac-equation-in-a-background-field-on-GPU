@@ -1,3 +1,10 @@
+jaxGR.ipynb: computes probability of pair production in curved spacetimes with metrics of the "inflation" or Gullstrand-Painleve form. Allows for metrics with nontrivial holonomy.
+
+jaxGRandQED: computes probability of pair production in general curved spacetimes and/or electromagnetic background fields, assuming a trivial holonomy.
+
+
+
+
 jaxBWplaneWaveGH.ipynb contains a code for computing the probability of nonlinear Breit-Wheeler pair production in (1+1)D. "planeWave" in the name refers to the high-energy photon, not the background field. The method and code are described in
 
 G. Torgrimsson,
